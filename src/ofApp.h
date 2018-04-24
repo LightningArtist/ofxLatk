@@ -23,5 +23,6 @@ class ofApp : public ofBaseApp {
 		void gotMessage(ofMessage msg);
 
 		Latk latk;
+		ofEasyCam cam;
 		
 };

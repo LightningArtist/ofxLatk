@@ -59,7 +59,7 @@ void Latk::read(string fileName, bool clearExisting) {
 					vector<ofVec3f> pts;
 					for (int m = 0; m<jsonStroke["points"].size(); m++) {
 						jsonPoint = jsonStroke["points"][m];
-						ofVec3f p = ofVec3f(jsonPoint["co"][0].asFloat(), -jsonPoint["co"][1].asFloat(), jsonPoint["co"][2].asFloat());
+						ofVec3f p = ofVec3f(jsonPoint["co"][0].asFloat(), jsonPoint["co"][1].asFloat(), jsonPoint["co"][2].asFloat());
 						pts.push_back(p * globalScale);
 					}
 

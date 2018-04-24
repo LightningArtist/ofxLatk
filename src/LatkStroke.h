@@ -8,7 +8,8 @@ class LatkStroke {
 		LatkStroke(ofColor c);
 		LatkStroke(float s);
 		LatkStroke(ofColor c, float s);
-        virtual ~LatkStroke(){};
+		LatkStroke(vector<ofVec3f> pts, ofColor c);
+		virtual ~LatkStroke(){};
 
         void update();
         void draw();
@@ -18,10 +19,11 @@ class LatkStroke {
         void refine();
     
         vector<ofVec3f> points;
-        float strokeSize = 10.0;
+        float strokeSize = 4.0;
         ofColor strokeColor = ofColor(0);
         int splitReps = 2;
         int smoothReps = 10;
-        bool drawMesh = true;
+        bool drawMesh = false;
+		float globalScale = 1.0;
 
 };

@@ -25,7 +25,8 @@ public:
 
 	vector<LatkLayer> layers;
 	string fileName = "layer_test";
-	float globalScale = 200;
+	float globalScale = 100.0;
+	bool drawMesh = false;
 	int startTime = 0;
 	int lastMillis = 0;
 	int timeInterval = 0;

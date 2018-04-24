@@ -17,11 +17,18 @@ LatkStroke::LatkStroke(ofColor c, float s) {
     strokeSize = s;
 }
 
+LatkStroke::LatkStroke(vector<ofVec3f> pts, ofColor c) {
+	points = pts;
+	strokeColor = c;
+}
+
 void LatkStroke::update() {
     //
 }
 
 void LatkStroke::draw() {
+	glPushMatrix();
+	ofScale(globalScale, globalScale, globalScale);
     ofNoFill();
     ofSetLineWidth(strokeSize);
     ofSetColor(strokeColor);
@@ -53,6 +60,7 @@ void LatkStroke::draw() {
         }
         ofEndShape();
     }
+	glPopMatrix();
 }
 
 void LatkStroke::run() {

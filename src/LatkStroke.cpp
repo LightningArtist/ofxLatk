@@ -1,27 +1,27 @@
 #include "LatkStroke.h"
 
-LatkStroke :: LatkStroke() {
+LatkStroke::LatkStroke() {
     //
 }
 
-LatkStroke :: LatkStroke(ofColor c) {
+LatkStroke::LatkStroke(ofColor c) {
     strokeColor = c;
 }
 
-LatkStroke :: LatkStroke(float s) {
+LatkStroke::LatkStroke(float s) {
     strokeSize = s;
 }
 
-LatkStroke :: LatkStroke(ofColor c, float s) {
+LatkStroke::LatkStroke(ofColor c, float s) {
     strokeColor = c;
     strokeSize = s;
 }
 
-void LatkStroke :: update() {
+void LatkStroke::update() {
     //
 }
 
-void LatkStroke :: draw() {
+void LatkStroke::draw() {
     ofNoFill();
     ofSetLineWidth(strokeSize);
     ofSetColor(strokeColor);
@@ -55,12 +55,12 @@ void LatkStroke :: draw() {
     }
 }
 
-void LatkStroke :: run() {
+void LatkStroke::run() {
     update();
     draw();
 }
 
-void LatkStroke :: splitStroke() {
+void LatkStroke::splitStroke() {
     vector<ofVec3f> newPoints;
     for (int i = 1; i < points.size(); i += 2) {
         ofVec3f center = points[i];
@@ -75,7 +75,7 @@ void LatkStroke :: splitStroke() {
     points.assign(newPoints.begin(), newPoints.end());
 }
 
-void LatkStroke :: smoothStroke() {
+void LatkStroke::smoothStroke() {
     float weight = 18;
     float scale = 1.0 / (weight + 2);
     int nPointsMinusTwo = points.size() - 2;
@@ -94,7 +94,7 @@ void LatkStroke :: smoothStroke() {
     }
 }
 
-void LatkStroke :: refine() {
+void LatkStroke::refine() {
     for (int i=0; i<splitReps; i++) {
         splitStroke();
         smoothStroke();

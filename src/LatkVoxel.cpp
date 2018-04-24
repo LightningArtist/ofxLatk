@@ -1,5 +1,9 @@
 #include "LatkVoxel.h"
 
+LatkVoxel::LatkVoxel() {
+	//
+}
+
 LatkVoxel ::LatkVoxel(ofVec3f _p, float _s, ofColor _c) {
 	/*
 	p = new PVector(_x * scaleFactor, _y * scaleFactor, _z * scaleFactor);
@@ -8,11 +12,11 @@ LatkVoxel ::LatkVoxel(ofVec3f _p, float _s, ofColor _c) {
 	*/
 }
 
-void LatkVoxel :: update() {
+void LatkVoxel::update() {
 	//
 }
 
-void LatkVoxel :: draw() {
+void LatkVoxel::draw() {
 	/*
 	if (selectMe || drawMe || sameZ) {
 	pushMatrix();
@@ -48,7 +52,7 @@ void LatkVoxel :: draw() {
 	*/
 }
 
-void LatkVoxel :: run() {
+void LatkVoxel::run() {
 	draw();
 }
 

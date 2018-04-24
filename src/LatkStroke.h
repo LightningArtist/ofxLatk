@@ -17,7 +17,7 @@ class LatkStroke {
         void smoothStroke();
         void refine();
     
-        vector <ofVec3f> points;
+        vector<ofVec3f> points;
         float strokeSize = 10.0;
         ofColor strokeColor = ofColor(0);
         int splitReps = 2;

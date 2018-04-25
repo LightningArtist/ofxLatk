@@ -103,11 +103,10 @@ void Latk::write(string fileName) {
 				if (layers[currentLayer].frames[layers[currentLayer].currentFrame].strokes[i].points.size() > 0) {
 					sbb.push_back("\t\t\t\t\t\t\t\t\t\"points\":[");
 					for (int j = 0; j < layers[currentLayer].frames[layers[currentLayer].currentFrame].strokes[i].points.size(); j++) {
-						ofVec3f pt = layers[currentLayer].frames[layers[currentLayer].currentFrame].strokes[i].points[j];
-						//pt.mult(1.0/globalScale);
+						ofVec3f pt = layers[currentLayer].frames[layers[currentLayer].currentFrame].strokes[i].points[j] * (1.0 / globalScale);
 
 						string x = ofToString(pt.x);
-						string y = ofToString(-pt.y);
+						string y = ofToString(pt.y);
 						string z = ofToString(pt.z);
 
 						if (j == layers[currentLayer].frames[layers[currentLayer].currentFrame].strokes[i].points.size() - 1) {

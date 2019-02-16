@@ -5,15 +5,15 @@
 
 class LatkLayer {
 
-public:
-	LatkLayer();
-	virtual ~LatkLayer() {};
+	public:
+		LatkLayer();
+		virtual ~LatkLayer() {};
 
-	void run();
-	void nextFrame();
+		void run();
+		void nextFrame();
 
-	vector<LatkFrame> frames;
-	int currentFrame = 0;
-	string name = "ofLayer";
+		vector<LatkFrame> frames;
+		int currentFrame = 0;
+		string name = "ofLayer";
 
 };

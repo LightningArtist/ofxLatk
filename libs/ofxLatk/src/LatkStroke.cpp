@@ -1,8 +1,6 @@
 #include "LatkStroke.h"
 
-LatkStroke::LatkStroke() {
-    //
-}
+LatkStroke::LatkStroke() { }
 
 LatkStroke::LatkStroke(ofColor c) {
     strokeColor = c;
@@ -22,9 +20,7 @@ LatkStroke::LatkStroke(vector<ofVec3f> pts, ofColor c) {
 	strokeColor = c;
 }
 
-void LatkStroke::update() {
-    //
-}
+void LatkStroke::update() { }
 
 void LatkStroke::draw() {
 	glPushMatrix();

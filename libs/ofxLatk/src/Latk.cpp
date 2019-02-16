@@ -1,8 +1,6 @@
 #include "Latk.h"
 
-Latk::Latk() {
-	//
-}
+Latk::Latk() { }
 
 Latk::Latk(string fileName) {
 	read(fileName, true);

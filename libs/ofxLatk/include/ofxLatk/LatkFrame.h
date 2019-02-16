@@ -5,12 +5,12 @@
 
 class LatkFrame {
 
-public:
-	LatkFrame();
-	virtual ~LatkFrame() {};
+	public:
+		LatkFrame();
+		virtual ~LatkFrame() {};
 
-	void run();
+		void run();
 
-	vector<LatkStroke> strokes;
+		vector<LatkStroke> strokes;
 
 };

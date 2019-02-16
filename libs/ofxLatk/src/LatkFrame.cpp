@@ -1,8 +1,6 @@
 #include "LatkFrame.h"
 
-LatkFrame::LatkFrame() {
-	//
-}
+LatkFrame::LatkFrame() { }
 
 void LatkFrame::run() {
 	for (int i = 0; i < strokes.size(); i++) {

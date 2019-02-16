@@ -13,11 +13,8 @@
 		<ClCompile Include="src\ofApp.cpp">
 			<Filter>src</Filter>
 		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxJSON\src\ofxJSONElement.cpp">
-			<Filter>addons\ofxJSON\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxJSON\libs\jsoncpp\src\jsoncpp.cpp">
-			<Filter>addons\ofxJSON\libs\jsoncpp\src</Filter>
+		<ClCompile Include="..\..\..\addons\ofxLatk\libs\jsoncpp\src\jsoncpp.cpp">
+			<Filter>addons\ofxLatk\libs\jsoncpp\src</Filter>
 		</ClCompile>
 		<ClCompile Include="..\..\..\addons\ofxLatk\libs\ofxLatk\src\Latk.cpp">
 			<Filter>addons\ofxLatk\libs\ofxLatk\src</Filter>
@@ -25,13 +22,13 @@
 		<ClCompile Include="..\..\..\addons\ofxLatk\libs\ofxLatk\src\LatkFrame.cpp">
 			<Filter>addons\ofxLatk\libs\ofxLatk\src</Filter>
 		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxLatk\libs\ofxLatk\src\LatkJson.cpp">
+			<Filter>addons\ofxLatk\libs\ofxLatk\src</Filter>
+		</ClCompile>
 		<ClCompile Include="..\..\..\addons\ofxLatk\libs\ofxLatk\src\LatkLayer.cpp">
 			<Filter>addons\ofxLatk\libs\ofxLatk\src</Filter>
 		</ClCompile>
 		<ClCompile Include="..\..\..\addons\ofxLatk\libs\ofxLatk\src\LatkStroke.cpp">
-			<Filter>addons\ofxLatk\libs\ofxLatk\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxLatk\libs\ofxLatk\src\LatkVoxel.cpp">
 			<Filter>addons\ofxLatk\libs\ofxLatk\src</Filter>
 		</ClCompile>
 	</ItemGroup>
@@ -42,27 +39,6 @@
 		<Filter Include="addons">
 			<UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
 		</Filter>
-		<Filter Include="addons\ofxJSON">
-			<UniqueIdentifier>{CF86E01B-D8D7-A112-88F3-5883}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxJSON\src">
-			<UniqueIdentifier>{CE83AFE9-FE4A-682E-D5C9-50B4}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxJSON\libs">
-			<UniqueIdentifier>{5302B3F8-ECDD-0465-334A-F39E}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxJSON\libs\jsoncpp">
-			<UniqueIdentifier>{87D6C548-39D9-FD9F-093E-9F4E}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxJSON\libs\jsoncpp\include">
-			<UniqueIdentifier>{0B6CA981-484E-6E8C-776C-7298}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxJSON\libs\jsoncpp\include\json">
-			<UniqueIdentifier>{5FF260B2-1497-3EFE-19D5-40DB}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxJSON\libs\jsoncpp\src">
-			<UniqueIdentifier>{6D569A5B-6719-AEFD-C08E-5CE5}</UniqueIdentifier>
-		</Filter>
 		<Filter Include="addons\ofxLatk">
 			<UniqueIdentifier>{79D8B451-2B98-2937-CA03-D13F}</UniqueIdentifier>
 		</Filter>
@@ -71,6 +47,18 @@
 		</Filter>
 		<Filter Include="addons\ofxLatk\libs">
 			<UniqueIdentifier>{B1921A43-9F11-6027-079C-5513}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxLatk\libs\jsoncpp">
+			<UniqueIdentifier>{8F5BCA36-7588-4AEE-E558-03C4}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxLatk\libs\jsoncpp\include">
+			<UniqueIdentifier>{CB67FEA6-1ECC-1468-86CF-AD31}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxLatk\libs\jsoncpp\include\json">
+			<UniqueIdentifier>{E7C72E92-24B3-6D07-4A58-D7C9}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxLatk\libs\jsoncpp\src">
+			<UniqueIdentifier>{B33F88D2-D2F8-3112-433E-BD99}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="addons\ofxLatk\libs\ofxLatk">
 			<UniqueIdentifier>{6FC20F36-A6D9-92F3-AB5D-CD7F}</UniqueIdentifier>
@@ -92,20 +80,14 @@
 		<ClInclude Include="src\ofApp.h">
 			<Filter>src</Filter>
 		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxJSON\src\ofxJSON.h">
-			<Filter>addons\ofxJSON\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxJSON\src\ofxJSONElement.h">
-			<Filter>addons\ofxJSON\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxJSON\libs\jsoncpp\include\json\json-forwards.h">
-			<Filter>addons\ofxJSON\libs\jsoncpp\include\json</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxJSON\libs\jsoncpp\include\json\json.h">
-			<Filter>addons\ofxJSON\libs\jsoncpp\include\json</Filter>
-		</ClInclude>
 		<ClInclude Include="..\..\..\addons\ofxLatk\src\ofxLatk.h">
 			<Filter>addons\ofxLatk\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxLatk\libs\jsoncpp\include\json\json-forwards.h">
+			<Filter>addons\ofxLatk\libs\jsoncpp\include\json</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxLatk\libs\jsoncpp\include\json\json.h">
+			<Filter>addons\ofxLatk\libs\jsoncpp\include\json</Filter>
 		</ClInclude>
 		<ClInclude Include="..\..\..\addons\ofxLatk\libs\ofxLatk\include\ofxLatk\Latk.h">
 			<Filter>addons\ofxLatk\libs\ofxLatk\include\ofxLatk</Filter>
@@ -113,13 +95,13 @@
 		<ClInclude Include="..\..\..\addons\ofxLatk\libs\ofxLatk\include\ofxLatk\LatkFrame.h">
 			<Filter>addons\ofxLatk\libs\ofxLatk\include\ofxLatk</Filter>
 		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxLatk\libs\ofxLatk\include\ofxLatk\LatkJson.h">
+			<Filter>addons\ofxLatk\libs\ofxLatk\include\ofxLatk</Filter>
+		</ClInclude>
 		<ClInclude Include="..\..\..\addons\ofxLatk\libs\ofxLatk\include\ofxLatk\LatkLayer.h">
 			<Filter>addons\ofxLatk\libs\ofxLatk\include\ofxLatk</Filter>
 		</ClInclude>
 		<ClInclude Include="..\..\..\addons\ofxLatk\libs\ofxLatk\include\ofxLatk\LatkStroke.h">
-			<Filter>addons\ofxLatk\libs\ofxLatk\include\ofxLatk</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxLatk\libs\ofxLatk\include\ofxLatk\LatkVoxel.h">
 			<Filter>addons\ofxLatk\libs\ofxLatk\include\ofxLatk</Filter>
 		</ClInclude>
 	</ItemGroup>

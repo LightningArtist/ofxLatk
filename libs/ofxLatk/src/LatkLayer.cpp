@@ -1,8 +1,6 @@
 #include "LatkLayer.h"
 
-LatkLayer::LatkLayer() {
-	//
-}
+LatkLayer::LatkLayer() { }
 
 void LatkLayer::run() {
 	frames[currentFrame].run();

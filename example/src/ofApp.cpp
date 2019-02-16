@@ -20,7 +20,8 @@ void ofApp::draw() {
     cam.begin(); // if not using post
 	ofBackground(0);
 	latk.run();
-	//post.end();// cam.end();
+	//post.end();// 
+	cam.end(); // if not using post
 }
 
 //--------------------------------------------------------------

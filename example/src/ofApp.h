@@ -1,7 +1,7 @@
 #pragma once
 
 #include "ofMain.h"
-#include "ofxPostProcessing.h"
+//#include "ofxPostProcessing.h"
 #include "ofxLatk.h"
 
 class ofApp : public ofBaseApp {
@@ -25,6 +25,6 @@ class ofApp : public ofBaseApp {
 
 		Latk latk;
 		ofEasyCam cam;
-		ofxPostProcessing post;
+		//ofxPostProcessing post;
 
 };

@@ -3,10 +3,10 @@
 //--------------------------------------------------------------
 void ofApp::setup() {
 	latk = Latk("jellyfish.json");
-	post.init(ofGetWidth(), ofGetHeight());
-	post.createPass<FxaaPass>()->setEnabled(true);
-	post.createPass<GodRaysPass>()->setEnabled(true);
-	post.createPass<BloomPass>()->setEnabled(true);
+	//post.init(ofGetWidth(), ofGetHeight());
+	//post.createPass<FxaaPass>()->setEnabled(true);
+	//post.createPass<GodRaysPass>()->setEnabled(true);
+	//post.createPass<BloomPass>()->setEnabled(true);
 }
 
 //--------------------------------------------------------------
@@ -16,10 +16,11 @@ void ofApp::update() {
 
 //--------------------------------------------------------------
 void ofApp::draw() {
-	post.begin(cam); //cam.begin();
+	//post.begin(cam);
+    cam.begin(); // if not using post
 	ofBackground(0);
 	latk.run();
-	post.end();// cam.end();
+	//post.end();// cam.end();
 }
 
 //--------------------------------------------------------------

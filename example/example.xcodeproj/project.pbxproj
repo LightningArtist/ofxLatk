@@ -37,28 +37,6 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
-			<key>5C5CC9133CC4D38EB5139201</key>
-			<dict>
-				<key>fileRef</key>
-				<string>C0429096A83AA2875096ECB8</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>C0429096A83AA2875096ECB8</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>LatkVoxel.cpp</string>
-				<key>path</key>
-				<string>../../../addons/ofxLatk/libs/ofxLatk/src/LatkVoxel.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
 			<key>7129DD294DBD2C6DAD01B592</key>
 			<dict>
 				<key>fileRef</key>
@@ -103,6 +81,28 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
+			<key>A770CB3A52E8981FEDF29317</key>
+			<dict>
+				<key>fileRef</key>
+				<string>7746567310ACF892704FCECB</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>7746567310ACF892704FCECB</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>LatkJson.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxLatk/libs/ofxLatk/src/LatkJson.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
 			<key>E7726A8B1DA63275CF1928E8</key>
 			<dict>
 				<key>fileRef</key>
@@ -131,9 +131,9 @@
 				<array>
 					<string>A7729578FC7C9633AF7B8395</string>
 					<string>7CBC3C3CFA766D5F8086D610</string>
+					<string>7746567310ACF892704FCECB</string>
 					<string>0F65BD2C0986EA73FC266964</string>
 					<string>60B60A051426D1B496376A90</string>
-					<string>C0429096A83AA2875096ECB8</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -161,21 +161,6 @@
 				<string>Latk.cpp</string>
 				<key>path</key>
 				<string>../../../addons/ofxLatk/libs/ofxLatk/src/Latk.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>3C5BECD427A19B3AD499F507</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>LatkVoxel.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxLatk/libs/ofxLatk/include/ofxLatk/LatkVoxel.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -209,6 +194,21 @@
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
+			<key>D2F5C321581883D65B6411DC</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>LatkJson.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxLatk/libs/ofxLatk/include/ofxLatk/LatkJson.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
 			<key>243F02F9B7E15DB1C8F4F4EB</key>
 			<dict>
 				<key>explicitFileType</key>
@@ -230,9 +230,9 @@
 				<array>
 					<string>88BE173DAC27517FB2887736</string>
 					<string>243F02F9B7E15DB1C8F4F4EB</string>
+					<string>D2F5C321581883D65B6411DC</string>
 					<string>7F793943CB29777926E38EE3</string>
 					<string>C61B3297D702E05816BE815C</string>
-					<string>3C5BECD427A19B3AD499F507</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -268,10 +268,117 @@
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
+			<key>88BE173DAC27517FB2887736</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>Latk.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxLatk/libs/ofxLatk/include/ofxLatk/Latk.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>10C3474196BED3263A1897B7</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>661B923A7D90F43B01CCCD17</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>src</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>06941D51E3F201FC7CA806E8</key>
+			<dict>
+				<key>fileRef</key>
+				<string>661B923A7D90F43B01CCCD17</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>661B923A7D90F43B01CCCD17</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>jsoncpp.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxLatk/libs/jsoncpp/src/jsoncpp.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>B97EB13DE55411827865DD26</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>4</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>json.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxLatk/libs/jsoncpp/include/json/json.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>DD2FB16627F91E0827DF7833</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>3309DCFF5AB4C6516A12A465</string>
+					<string>B97EB13DE55411827865DD26</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>json</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>F61CDAAEE28DE2447A068E22</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>DD2FB16627F91E0827DF7833</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>include</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>F0A762192F60D277FEAA9B5A</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>F61CDAAEE28DE2447A068E22</string>
+					<string>10C3474196BED3263A1897B7</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>jsoncpp</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
 			<key>4E405A7399CC92672243A2DC</key>
 			<dict>
 				<key>children</key>
 				<array>
+					<string>F0A762192F60D277FEAA9B5A</string>
 					<string>3DA1E007B901D8EDADBF9049</string>
 				</array>
 				<key>isa</key>
@@ -295,207 +402,7 @@
 				<key>sourceTree</key>
 				<string>&lt;group&gt;</string>
 			</dict>
-			<key>88BE173DAC27517FB2887736</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>Latk.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxLatk/libs/ofxLatk/include/ofxLatk/Latk.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>26A541233BC6F736E758F718</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxJSONElement.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxJSON/src/ofxJSONElement.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>BEDFEE7400C58EA4E412B757</key>
-			<dict>
-				<key>fileRef</key>
-				<string>F2B099E6BD1199664C48B177</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>F2B099E6BD1199664C48B177</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxJSONElement.cpp</string>
-				<key>path</key>
-				<string>../../../addons/ofxJSON/src/ofxJSONElement.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>292AF6148769654D0DF26018</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>1645F56257269CD0356320BD</string>
-					<string>F2B099E6BD1199664C48B177</string>
-					<string>26A541233BC6F736E758F718</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>src</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>1645F56257269CD0356320BD</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>ofxJSON.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxJSON/src/ofxJSON.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>CCDC6F9CCF925CC402160B85</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>21BDE665988474F1B1F4D302</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>src</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>FB84AAF8D1B7A95266DB5C09</key>
-			<dict>
-				<key>fileRef</key>
-				<string>21BDE665988474F1B1F4D302</string>
-				<key>isa</key>
-				<string>PBXBuildFile</string>
-			</dict>
-			<key>21BDE665988474F1B1F4D302</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.cpp.cpp</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>jsoncpp.cpp</string>
-				<key>path</key>
-				<string>../../../addons/ofxJSON/libs/jsoncpp/src/jsoncpp.cpp</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>2C7CF000B7B4F782C187C353</key>
-			<dict>
-				<key>explicitFileType</key>
-				<string>sourcecode.c.h</string>
-				<key>fileEncoding</key>
-				<string>4</string>
-				<key>isa</key>
-				<string>PBXFileReference</string>
-				<key>name</key>
-				<string>json.h</string>
-				<key>path</key>
-				<string>../../../addons/ofxJSON/libs/jsoncpp/include/json/json.h</string>
-				<key>sourceTree</key>
-				<string>SOURCE_ROOT</string>
-			</dict>
-			<key>58AD3BD71B781D9BC25763C8</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>61313493CDB52744E22A604D</string>
-					<string>2C7CF000B7B4F782C187C353</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>json</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>D486FC87F063317BB47E9FAC</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>58AD3BD71B781D9BC25763C8</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>include</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>977A836DD2C489CCC5E330FF</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>D486FC87F063317BB47E9FAC</string>
-					<string>CCDC6F9CCF925CC402160B85</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>jsoncpp</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>F40E80CB2D443CBA9581DD03</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>977A836DD2C489CCC5E330FF</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>libs</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>2865DAEF86B1907A704CA70B</key>
-			<dict>
-				<key>children</key>
-				<array>
-					<string>F40E80CB2D443CBA9581DD03</string>
-					<string>292AF6148769654D0DF26018</string>
-				</array>
-				<key>isa</key>
-				<string>PBXGroup</string>
-				<key>name</key>
-				<string>ofxJSON</string>
-				<key>sourceTree</key>
-				<string>&lt;group&gt;</string>
-			</dict>
-			<key>61313493CDB52744E22A604D</key>
+			<key>3309DCFF5AB4C6516A12A465</key>
 			<dict>
 				<key>explicitFileType</key>
 				<string>sourcecode.c.h</string>
@@ -506,7 +413,7 @@
 				<key>name</key>
 				<string>json-forwards.h</string>
 				<key>path</key>
-				<string>../../../addons/ofxJSON/libs/jsoncpp/include/json/json-forwards.h</string>
+				<string>../../../addons/ofxLatk/libs/jsoncpp/include/json/json-forwards.h</string>
 				<key>sourceTree</key>
 				<string>SOURCE_ROOT</string>
 			</dict>
@@ -676,13 +583,11 @@ fi
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
 						<string>src</string>
-						<string>../../../addons/ofxJSON/libs</string>
-						<string>../../../addons/ofxJSON/libs/jsoncpp</string>
-						<string>../../../addons/ofxJSON/libs/jsoncpp/include</string>
-						<string>../../../addons/ofxJSON/libs/jsoncpp/include/json</string>
-						<string>../../../addons/ofxJSON/libs/jsoncpp/src</string>
-						<string>../../../addons/ofxJSON/src</string>
 						<string>../../../addons/ofxLatk/libs</string>
+						<string>../../../addons/ofxLatk/libs/jsoncpp</string>
+						<string>../../../addons/ofxLatk/libs/jsoncpp/include</string>
+						<string>../../../addons/ofxLatk/libs/jsoncpp/include/json</string>
+						<string>../../../addons/ofxLatk/libs/jsoncpp/src</string>
 						<string>../../../addons/ofxLatk/libs/ofxLatk</string>
 						<string>../../../addons/ofxLatk/libs/ofxLatk/include</string>
 						<string>../../../addons/ofxLatk/libs/ofxLatk/include/ofxLatk</string>
@@ -729,13 +634,11 @@ fi
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
 						<string>src</string>
-						<string>../../../addons/ofxJSON/libs</string>
-						<string>../../../addons/ofxJSON/libs/jsoncpp</string>
-						<string>../../../addons/ofxJSON/libs/jsoncpp/include</string>
-						<string>../../../addons/ofxJSON/libs/jsoncpp/include/json</string>
-						<string>../../../addons/ofxJSON/libs/jsoncpp/src</string>
-						<string>../../../addons/ofxJSON/src</string>
 						<string>../../../addons/ofxLatk/libs</string>
+						<string>../../../addons/ofxLatk/libs/jsoncpp</string>
+						<string>../../../addons/ofxLatk/libs/jsoncpp/include</string>
+						<string>../../../addons/ofxLatk/libs/jsoncpp/include/json</string>
+						<string>../../../addons/ofxLatk/libs/jsoncpp/src</string>
 						<string>../../../addons/ofxLatk/libs/ofxLatk</string>
 						<string>../../../addons/ofxLatk/libs/ofxLatk/include</string>
 						<string>../../../addons/ofxLatk/libs/ofxLatk/include/ofxLatk</string>
@@ -776,7 +679,6 @@ fi
 			<dict>
 				<key>children</key>
 				<array>
-					<string>2865DAEF86B1907A704CA70B</string>
 					<string>62E27CCC6B3489C9EB13638E</string>
 				</array>
 				<key>isa</key>
@@ -3544,13 +3446,11 @@ fi
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
 						<string>src</string>
-						<string>../../../addons/ofxJSON/libs</string>
-						<string>../../../addons/ofxJSON/libs/jsoncpp</string>
-						<string>../../../addons/ofxJSON/libs/jsoncpp/include</string>
-						<string>../../../addons/ofxJSON/libs/jsoncpp/include/json</string>
-						<string>../../../addons/ofxJSON/libs/jsoncpp/src</string>
-						<string>../../../addons/ofxJSON/src</string>
 						<string>../../../addons/ofxLatk/libs</string>
+						<string>../../../addons/ofxLatk/libs/jsoncpp</string>
+						<string>../../../addons/ofxLatk/libs/jsoncpp/include</string>
+						<string>../../../addons/ofxLatk/libs/jsoncpp/include/json</string>
+						<string>../../../addons/ofxLatk/libs/jsoncpp/src</string>
 						<string>../../../addons/ofxLatk/libs/ofxLatk</string>
 						<string>../../../addons/ofxLatk/libs/ofxLatk/include</string>
 						<string>../../../addons/ofxLatk/libs/ofxLatk/include/ofxLatk</string>
@@ -3617,13 +3517,11 @@ fi
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
 						<string>src</string>
-						<string>../../../addons/ofxJSON/libs</string>
-						<string>../../../addons/ofxJSON/libs/jsoncpp</string>
-						<string>../../../addons/ofxJSON/libs/jsoncpp/include</string>
-						<string>../../../addons/ofxJSON/libs/jsoncpp/include/json</string>
-						<string>../../../addons/ofxJSON/libs/jsoncpp/src</string>
-						<string>../../../addons/ofxJSON/src</string>
 						<string>../../../addons/ofxLatk/libs</string>
+						<string>../../../addons/ofxLatk/libs/jsoncpp</string>
+						<string>../../../addons/ofxLatk/libs/jsoncpp/include</string>
+						<string>../../../addons/ofxLatk/libs/jsoncpp/include/json</string>
+						<string>../../../addons/ofxLatk/libs/jsoncpp/src</string>
 						<string>../../../addons/ofxLatk/libs/ofxLatk</string>
 						<string>../../../addons/ofxLatk/libs/ofxLatk/include</string>
 						<string>../../../addons/ofxLatk/libs/ofxLatk/include/ofxLatk</string>
@@ -3653,13 +3551,12 @@ fi
 				<array>
 					<string>E4B69E200A3A1BDC003C02F2</string>
 					<string>E4B69E210A3A1BDC003C02F2</string>
-					<string>FB84AAF8D1B7A95266DB5C09</string>
-					<string>BEDFEE7400C58EA4E412B757</string>
+					<string>06941D51E3F201FC7CA806E8</string>
 					<string>5D778A7C722A3AF9B9E33435</string>
 					<string>E7726A8B1DA63275CF1928E8</string>
+					<string>A770CB3A52E8981FEDF29317</string>
 					<string>DFC36165A1522AE7361C7947</string>
 					<string>7129DD294DBD2C6DAD01B592</string>
-					<string>5C5CC9133CC4D38EB5139201</string>
 				</array>
 				<key>isa</key>
 				<string>PBXSourcesBuildPhase</string>
@@ -3760,13 +3657,11 @@ fi
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
 						<string>src</string>
-						<string>../../../addons/ofxJSON/libs</string>
-						<string>../../../addons/ofxJSON/libs/jsoncpp</string>
-						<string>../../../addons/ofxJSON/libs/jsoncpp/include</string>
-						<string>../../../addons/ofxJSON/libs/jsoncpp/include/json</string>
-						<string>../../../addons/ofxJSON/libs/jsoncpp/src</string>
-						<string>../../../addons/ofxJSON/src</string>
 						<string>../../../addons/ofxLatk/libs</string>
+						<string>../../../addons/ofxLatk/libs/jsoncpp</string>
+						<string>../../../addons/ofxLatk/libs/jsoncpp/include</string>
+						<string>../../../addons/ofxLatk/libs/jsoncpp/include/json</string>
+						<string>../../../addons/ofxLatk/libs/jsoncpp/src</string>
 						<string>../../../addons/ofxLatk/libs/ofxLatk</string>
 						<string>../../../addons/ofxLatk/libs/ofxLatk/include</string>
 						<string>../../../addons/ofxLatk/libs/ofxLatk/include/ofxLatk</string>
@@ -3824,13 +3719,11 @@ fi
 						<string>$(OF_CORE_HEADERS)</string>
 						<string>src</string>
 						<string>src</string>
-						<string>../../../addons/ofxJSON/libs</string>
-						<string>../../../addons/ofxJSON/libs/jsoncpp</string>
-						<string>../../../addons/ofxJSON/libs/jsoncpp/include</string>
-						<string>../../../addons/ofxJSON/libs/jsoncpp/include/json</string>
-						<string>../../../addons/ofxJSON/libs/jsoncpp/src</string>
-						<string>../../../addons/ofxJSON/src</string>
 						<string>../../../addons/ofxLatk/libs</string>
+						<string>../../../addons/ofxLatk/libs/jsoncpp</string>
+						<string>../../../addons/ofxLatk/libs/jsoncpp/include</string>
+						<string>../../../addons/ofxLatk/libs/jsoncpp/include/json</string>
+						<string>../../../addons/ofxLatk/libs/jsoncpp/src</string>
 						<string>../../../addons/ofxLatk/libs/ofxLatk</string>
 						<string>../../../addons/ofxLatk/libs/ofxLatk/include</string>
 						<string>../../../addons/ofxLatk/libs/ofxLatk/include/ofxLatk</string>

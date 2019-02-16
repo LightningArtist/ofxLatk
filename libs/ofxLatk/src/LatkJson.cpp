@@ -32,7 +32,7 @@ bool LatkJson::parse(const std::string& jsonString) {
     return true;
 }
 
-bool LatkJson::open(const string& filename) {
+bool LatkJson::open(const std::string& filename) {
     if (filename.find("http://") == 0 || filename.find("https://") == 0) {
         return openRemote(filename);
     } else {
@@ -79,10 +79,10 @@ bool LatkJson::save(const std::string& filename, bool pretty) const {
 
     if (pretty) {
         Json::StyledWriter writer;
-        file << writer.write( *this ) << endl;
+        file << writer.write( *this ) << std::endl;
     } else {
         Json::FastWriter writer;
-        file << writer.write( *this ) << endl;
+        file << writer.write( *this ) << std::endl;
     }
 
     ofLogVerbose("LatkJson::save") << "JSON saved to " << file.getAbsolutePath() << ".";

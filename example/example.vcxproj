@@ -22,7 +22,7 @@
     <ProjectGuid>{7FD42DF7-442E-479A-BA76-D0022F99702A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>example</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -96,7 +96,7 @@
       <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\..\addons\ofxJSON\libs;..\..\..\addons\ofxJSON\libs\jsoncpp;..\..\..\addons\ofxJSON\libs\jsoncpp\include;..\..\..\addons\ofxJSON\libs\jsoncpp\include\json;..\..\..\addons\ofxJSON\libs\jsoncpp\src;..\..\..\addons\ofxJSON\src;..\..\..\addons\ofxPostProcessing\src</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\..\addons\ofxJSON\libs;..\..\..\addons\ofxJSON\libs\jsoncpp;..\..\..\addons\ofxJSON\libs\jsoncpp\include;..\..\..\addons\ofxJSON\libs\jsoncpp\include\json;..\..\..\addons\ofxJSON\libs\jsoncpp\src;..\..\..\addons\ofxJSON\src;..\..\..\addons\ofxLatk\libs;..\..\..\addons\ofxLatk\libs\ofxLatk;..\..\..\addons\ofxLatk\libs\ofxLatk\include;..\..\..\addons\ofxLatk\libs\ofxLatk\include\ofxLatk;..\..\..\addons\ofxLatk\libs\ofxLatk\src;..\..\..\addons\ofxLatk\src;..\..\..\addons\ofxPostProcessing\src</AdditionalIncludeDirectories>
       <CompileAs>CompileAsCpp</CompileAs>
     </ClCompile>
     <Link>
@@ -115,7 +115,7 @@
       <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\..\addons\ofxJSON\libs;..\..\..\addons\ofxJSON\libs\jsoncpp;..\..\..\addons\ofxJSON\libs\jsoncpp\include;..\..\..\addons\ofxJSON\libs\jsoncpp\include\json;..\..\..\addons\ofxJSON\libs\jsoncpp\src;..\..\..\addons\ofxJSON\src;..\..\..\addons\ofxPostProcessing\src</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\..\addons\ofxJSON\libs;..\..\..\addons\ofxJSON\libs\jsoncpp;..\..\..\addons\ofxJSON\libs\jsoncpp\include;..\..\..\addons\ofxJSON\libs\jsoncpp\include\json;..\..\..\addons\ofxJSON\libs\jsoncpp\src;..\..\..\addons\ofxJSON\src;..\..\..\addons\ofxLatk\libs;..\..\..\addons\ofxLatk\libs\ofxLatk;..\..\..\addons\ofxLatk\libs\ofxLatk\include;..\..\..\addons\ofxLatk\libs\ofxLatk\include\ofxLatk;..\..\..\addons\ofxLatk\libs\ofxLatk\src;..\..\..\addons\ofxLatk\src;..\..\..\addons\ofxPostProcessing\src</AdditionalIncludeDirectories>
       <CompileAs>CompileAsCpp</CompileAs>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
@@ -134,7 +134,7 @@
       <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\..\addons\ofxJSON\libs;..\..\..\addons\ofxJSON\libs\jsoncpp;..\..\..\addons\ofxJSON\libs\jsoncpp\include;..\..\..\addons\ofxJSON\libs\jsoncpp\include\json;..\..\..\addons\ofxJSON\libs\jsoncpp\src;..\..\..\addons\ofxJSON\src;..\..\..\addons\ofxPostProcessing\src</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\..\addons\ofxJSON\libs;..\..\..\addons\ofxJSON\libs\jsoncpp;..\..\..\addons\ofxJSON\libs\jsoncpp\include;..\..\..\addons\ofxJSON\libs\jsoncpp\include\json;..\..\..\addons\ofxJSON\libs\jsoncpp\src;..\..\..\addons\ofxJSON\src;..\..\..\addons\ofxLatk\libs;..\..\..\addons\ofxLatk\libs\ofxLatk;..\..\..\addons\ofxLatk\libs\ofxLatk\include;..\..\..\addons\ofxLatk\libs\ofxLatk\include\ofxLatk;..\..\..\addons\ofxLatk\libs\ofxLatk\src;..\..\..\addons\ofxLatk\src;..\..\..\addons\ofxPostProcessing\src</AdditionalIncludeDirectories>
       <CompileAs>CompileAsCpp</CompileAs>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
@@ -156,7 +156,7 @@
       <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\..\addons\ofxJSON\libs;..\..\..\addons\ofxJSON\libs\jsoncpp;..\..\..\addons\ofxJSON\libs\jsoncpp\include;..\..\..\addons\ofxJSON\libs\jsoncpp\include\json;..\..\..\addons\ofxJSON\libs\jsoncpp\src;..\..\..\addons\ofxJSON\src;..\..\..\addons\ofxPostProcessing\src</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\..\addons\ofxJSON\libs;..\..\..\addons\ofxJSON\libs\jsoncpp;..\..\..\addons\ofxJSON\libs\jsoncpp\include;..\..\..\addons\ofxJSON\libs\jsoncpp\include\json;..\..\..\addons\ofxJSON\libs\jsoncpp\src;..\..\..\addons\ofxJSON\src;..\..\..\addons\ofxLatk\libs;..\..\..\addons\ofxLatk\libs\ofxLatk;..\..\..\addons\ofxLatk\libs\ofxLatk\include;..\..\..\addons\ofxLatk\libs\ofxLatk\include\ofxLatk;..\..\..\addons\ofxLatk\libs\ofxLatk\src;..\..\..\addons\ofxLatk\src;..\..\..\addons\ofxPostProcessing\src</AdditionalIncludeDirectories>
       <CompileAs>CompileAsCpp</CompileAs>
     </ClCompile>
     <Link>
@@ -174,13 +174,13 @@
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\ofApp.cpp" />
-    <ClCompile Include="src\Latk.cpp" />
-    <ClCompile Include="src\LatkFrame.cpp" />
-    <ClCompile Include="src\LatkLayer.cpp" />
-    <ClCompile Include="src\LatkStroke.cpp" />
-    <ClCompile Include="src\LatkVoxel.cpp" />
     <ClCompile Include="..\..\..\addons\ofxJSON\src\ofxJSONElement.cpp" />
     <ClCompile Include="..\..\..\addons\ofxJSON\libs\jsoncpp\src\jsoncpp.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxLatk\libs\ofxLatk\src\Latk.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxLatk\libs\ofxLatk\src\LatkFrame.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxLatk\libs\ofxLatk\src\LatkLayer.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxLatk\libs\ofxLatk\src\LatkStroke.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxLatk\libs\ofxLatk\src\LatkVoxel.cpp" />
     <ClCompile Include="..\..\..\addons\ofxPostProcessing\src\BleachBypassPass.cpp" />
     <ClCompile Include="..\..\..\addons\ofxPostProcessing\src\BloomPass.cpp" />
     <ClCompile Include="..\..\..\addons\ofxPostProcessing\src\ContrastPass.cpp" />
@@ -209,15 +209,16 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\ofApp.h" />
-    <ClInclude Include="src\Latk.h" />
-    <ClInclude Include="src\LatkFrame.h" />
-    <ClInclude Include="src\LatkLayer.h" />
-    <ClInclude Include="src\LatkStroke.h" />
-    <ClInclude Include="src\LatkVoxel.h" />
     <ClInclude Include="..\..\..\addons\ofxJSON\src\ofxJSON.h" />
     <ClInclude Include="..\..\..\addons\ofxJSON\src\ofxJSONElement.h" />
     <ClInclude Include="..\..\..\addons\ofxJSON\libs\jsoncpp\include\json\json-forwards.h" />
     <ClInclude Include="..\..\..\addons\ofxJSON\libs\jsoncpp\include\json\json.h" />
+    <ClInclude Include="..\..\..\addons\ofxLatk\src\ofxLatk.h" />
+    <ClInclude Include="..\..\..\addons\ofxLatk\libs\ofxLatk\include\ofxLatk\Latk.h" />
+    <ClInclude Include="..\..\..\addons\ofxLatk\libs\ofxLatk\include\ofxLatk\LatkFrame.h" />
+    <ClInclude Include="..\..\..\addons\ofxLatk\libs\ofxLatk\include\ofxLatk\LatkLayer.h" />
+    <ClInclude Include="..\..\..\addons\ofxLatk\libs\ofxLatk\include\ofxLatk\LatkStroke.h" />
+    <ClInclude Include="..\..\..\addons\ofxLatk\libs\ofxLatk\include\ofxLatk\LatkVoxel.h" />
     <ClInclude Include="..\..\..\addons\ofxPostProcessing\src\BleachBypassPass.h" />
     <ClInclude Include="..\..\..\addons\ofxPostProcessing\src\BloomPass.h" />
     <ClInclude Include="..\..\..\addons\ofxPostProcessing\src\ContrastPass.h" />

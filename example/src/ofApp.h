@@ -2,7 +2,7 @@
 
 #include "ofMain.h"
 #include "ofxPostProcessing.h"
-#include "Latk.h"
+#include "ofxLatk.h"
 
 class ofApp : public ofBaseApp {
 

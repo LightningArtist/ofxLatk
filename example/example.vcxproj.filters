@@ -7,21 +7,6 @@
 		<ClCompile Include="src\main.cpp">
 			<Filter>src</Filter>
 		</ClCompile>
-		<ClCompile Include="src\Latk.cpp">
-			<Filter>src</Filter>
-		</ClCompile>
-		<ClCompile Include="src\LatkFrame.cpp">
-			<Filter>src</Filter>
-		</ClCompile>
-		<ClCompile Include="src\LatkLayer.cpp">
-			<Filter>src</Filter>
-		</ClCompile>
-		<ClCompile Include="src\LatkStroke.cpp">
-			<Filter>src</Filter>
-		</ClCompile>
-		<ClCompile Include="src\LatkVoxel.cpp">
-			<Filter>src</Filter>
-		</ClCompile>
 		<ClCompile Include="src\main.cpp">
 			<Filter>src</Filter>
 		</ClCompile>
@@ -33,6 +18,21 @@
 		</ClCompile>
 		<ClCompile Include="..\..\..\addons\ofxJSON\libs\jsoncpp\src\jsoncpp.cpp">
 			<Filter>addons\ofxJSON\libs\jsoncpp\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxLatk\libs\ofxLatk\src\Latk.cpp">
+			<Filter>addons\ofxLatk\libs\ofxLatk\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxLatk\libs\ofxLatk\src\LatkFrame.cpp">
+			<Filter>addons\ofxLatk\libs\ofxLatk\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxLatk\libs\ofxLatk\src\LatkLayer.cpp">
+			<Filter>addons\ofxLatk\libs\ofxLatk\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxLatk\libs\ofxLatk\src\LatkStroke.cpp">
+			<Filter>addons\ofxLatk\libs\ofxLatk\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxLatk\libs\ofxLatk\src\LatkVoxel.cpp">
+			<Filter>addons\ofxLatk\libs\ofxLatk\src</Filter>
 		</ClCompile>
 		<ClCompile Include="..\..\..\addons\ofxPostProcessing\src\BleachBypassPass.cpp">
 			<Filter>addons\ofxPostProcessing\src</Filter>
@@ -138,6 +138,27 @@
 		<Filter Include="addons\ofxJSON\libs\jsoncpp\src">
 			<UniqueIdentifier>{6D569A5B-6719-AEFD-C08E-5CE5}</UniqueIdentifier>
 		</Filter>
+		<Filter Include="addons\ofxLatk">
+			<UniqueIdentifier>{79D8B451-2B98-2937-CA03-D13F}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxLatk\src">
+			<UniqueIdentifier>{65701004-94A5-3765-3CA7-ECF5}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxLatk\libs">
+			<UniqueIdentifier>{B1921A43-9F11-6027-079C-5513}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxLatk\libs\ofxLatk">
+			<UniqueIdentifier>{6FC20F36-A6D9-92F3-AB5D-CD7F}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxLatk\libs\ofxLatk\include">
+			<UniqueIdentifier>{FDFE9712-FCAE-EE21-96F4-BFCF}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxLatk\libs\ofxLatk\include\ofxLatk">
+			<UniqueIdentifier>{58130E8B-3022-C337-BE58-AE44}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxLatk\libs\ofxLatk\src">
+			<UniqueIdentifier>{511B0CB1-1D4F-AB5C-F510-C614}</UniqueIdentifier>
+		</Filter>
 		<Filter Include="addons\ofxPostProcessing">
 			<UniqueIdentifier>{AB514210-24FF-87A6-AE4B-9AE5}</UniqueIdentifier>
 		</Filter>
@@ -147,21 +168,6 @@
 	</ItemGroup>
 	<ItemGroup>
 		<ClInclude Include="src\ofApp.h">
-			<Filter>src</Filter>
-		</ClInclude>
-		<ClInclude Include="src\Latk.h">
-			<Filter>src</Filter>
-		</ClInclude>
-		<ClInclude Include="src\LatkFrame.h">
-			<Filter>src</Filter>
-		</ClInclude>
-		<ClInclude Include="src\LatkLayer.h">
-			<Filter>src</Filter>
-		</ClInclude>
-		<ClInclude Include="src\LatkStroke.h">
-			<Filter>src</Filter>
-		</ClInclude>
-		<ClInclude Include="src\LatkVoxel.h">
 			<Filter>src</Filter>
 		</ClInclude>
 		<ClInclude Include="src\ofApp.h">
@@ -178,6 +184,24 @@
 		</ClInclude>
 		<ClInclude Include="..\..\..\addons\ofxJSON\libs\jsoncpp\include\json\json.h">
 			<Filter>addons\ofxJSON\libs\jsoncpp\include\json</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxLatk\src\ofxLatk.h">
+			<Filter>addons\ofxLatk\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxLatk\libs\ofxLatk\include\ofxLatk\Latk.h">
+			<Filter>addons\ofxLatk\libs\ofxLatk\include\ofxLatk</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxLatk\libs\ofxLatk\include\ofxLatk\LatkFrame.h">
+			<Filter>addons\ofxLatk\libs\ofxLatk\include\ofxLatk</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxLatk\libs\ofxLatk\include\ofxLatk\LatkLayer.h">
+			<Filter>addons\ofxLatk\libs\ofxLatk\include\ofxLatk</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxLatk\libs\ofxLatk\include\ofxLatk\LatkStroke.h">
+			<Filter>addons\ofxLatk\libs\ofxLatk\include\ofxLatk</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxLatk\libs\ofxLatk\include\ofxLatk\LatkVoxel.h">
+			<Filter>addons\ofxLatk\libs\ofxLatk\include\ofxLatk</Filter>
 		</ClInclude>
 		<ClInclude Include="..\..\..\addons\ofxPostProcessing\src\BleachBypassPass.h">
 			<Filter>addons\ofxPostProcessing\src</Filter>

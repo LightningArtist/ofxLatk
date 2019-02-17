@@ -1,3 +1,3 @@
 # ofxLatk
 Read and write Latk files in openFrameworks.
-Last tested with oF 0.9.8.
+Tested with oF 0.9.8 and 0.10.1.

@@ -1,9 +1,9 @@
 /*
-based on LatkZip
+based on ofxZipArchive
 Created by Jeffrey Crouse on 3/19/15.
 Copyright (c) 2015 __MyCompanyName__. All rights reserved.
 
-https://github.com/jeffcrouse/LatkZip/blob/master/LICENSE
+https://github.com/jeffcrouse/ofxZipArchive/blob/master/LICENSE
 The MIT License (MIT)
 
 Copyright (c) 2015 Jeff Crouse

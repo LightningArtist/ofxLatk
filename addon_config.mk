@@ -18,7 +18,7 @@ meta:
 	ADDON_NAME = ofxLatk
 	ADDON_DESCRIPTION = Read and write Latk files in openFrameworks.
 	ADDON_AUTHOR = @n1ckfg
-	ADDON_TAGS = "addon" "animation"
+	ADDON_TAGS = "addon" "animation" "graphics"
 	ADDON_URL = http://github.com/LightningArtist/ofxLatk
 
 common:

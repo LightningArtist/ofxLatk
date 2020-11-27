@@ -31,6 +31,12 @@
 		<ClCompile Include="..\..\..\addons\ofxLatk\libs\ofxLatk\src\LatkStroke.cpp">
 			<Filter>addons\ofxLatk\libs\ofxLatk\src</Filter>
 		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxLatk\libs\ofxLatk\src\LatkZip.cpp">
+			<Filter>addons\ofxLatk\libs\ofxLatk\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxPoco\src\ofxXmlPoco.cpp">
+			<Filter>addons\ofxPoco\src</Filter>
+		</ClCompile>
 	</ItemGroup>
 	<ItemGroup>
 		<Filter Include="src">
@@ -72,6 +78,12 @@
 		<Filter Include="addons\ofxLatk\libs\ofxLatk\src">
 			<UniqueIdentifier>{511B0CB1-1D4F-AB5C-F510-C614}</UniqueIdentifier>
 		</Filter>
+		<Filter Include="addons\ofxPoco">
+			<UniqueIdentifier>{3256AE3E-9B29-EA27-C842-CE6B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxPoco\src">
+			<UniqueIdentifier>{C7D4269D-D8A9-A7BB-531B-98DA}</UniqueIdentifier>
+		</Filter>
 	</ItemGroup>
 	<ItemGroup>
 		<ClInclude Include="src\ofApp.h">
@@ -103,6 +115,12 @@
 		</ClInclude>
 		<ClInclude Include="..\..\..\addons\ofxLatk\libs\ofxLatk\include\ofxLatk\LatkStroke.h">
 			<Filter>addons\ofxLatk\libs\ofxLatk\include\ofxLatk</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxLatk\libs\ofxLatk\include\ofxLatk\LatkZip.h">
+			<Filter>addons\ofxLatk\libs\ofxLatk\include\ofxLatk</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxPoco\src\ofxXmlPoco.h">
+			<Filter>addons\ofxPoco\src</Filter>
 		</ClInclude>
 	</ItemGroup>
 	<ItemGroup>

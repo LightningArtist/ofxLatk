@@ -2,7 +2,7 @@
 
 //--------------------------------------------------------------
 void ofApp::setup() {
-	latk = Latk("jellyfish.json");
+	latk = Latk("jellyfish.latk");
 }
 
 //--------------------------------------------------------------
@@ -25,7 +25,7 @@ void ofApp::keyPressed(int key) {
 	}
 
 	if (key == 'o') {
-		latk.write("test.json");
+		latk.write("test.latk");
 	}
 }
 

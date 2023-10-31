@@ -1,0 +1,3 @@
+ofxLatk
+ofxPoco
+ofxPostProcessing
